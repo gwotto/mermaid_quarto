@@ -3,7 +3,7 @@
 # Quarto cache
 .quarto/
 mermaid-quarto-test_files/
-*.knit.md
+
 
 # R cache (if applicable)
 .Rproj.user/
