@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Georg W Otto">
-<meta name="dcterms.date" content="2025-06-11">
+<meta name="dcterms.date" content="2025-07-11">
 
 <title>A quarto document with mermaid diagrams</title>
 <style>
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">06/11/2025</p>
+      <p class="date">07/11/2025</p>
     </div>
   </div>
   
@@ -87,6 +87,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>This is a test where I try out the many and somehow confusing options how to integrate mermaid diagrams in documents rendered from a quarto file. The results depend a to a large degree on the output format: <code>html</code> is the most flexible format showing the output as intended, <code>pdf</code> does not (in my setting) render the mermaid node definition syntax introduced in <code>Mermaid 11.3.0</code>, and github flavoured <code>markdown</code> does not render mermaid code and does not support automated references to figures.</p>
+</section>
 <section id="rendering-mermaid-diagrams-from-code" class="level2">
 <h2 class="anchored" data-anchor-id="rendering-mermaid-diagrams-from-code">Rendering mermaid diagrams from code</h2>
 <p>Rendering quarto documents with mermaid diagrams directly from code can be done either by including the code directly in the quarto document or by loading it from external .mmd files.</p>
@@ -166,7 +170,7 @@ Figure&nbsp;2: Diagram rendered from mermaid code in imported file.
 </div>
 </div>
 </div>
-<p>The diagrams in <a href="#fig-test_3" class="quarto-xref">Figure&nbsp;3</a> and <a href="#fig-test_4" class="quarto-xref">Figure&nbsp;4</a> use the <strong>Mermaid 11.3.0+ node syntax</strong>. The diagram in <a href="#fig-test_3" class="quarto-xref">Figure&nbsp;3</a> is defined directly in the quarto document, while <a href="#fig-test_4" class="quarto-xref">Figure&nbsp;4</a> loads the diagram from an external .mmd file. Neither of these seems to render in pdf output.</p>
+<p>The diagrams in <a href="#fig-test_3" class="quarto-xref">Figure&nbsp;3</a> and <a href="#fig-test_4" class="quarto-xref">Figure&nbsp;4</a> use the <strong>Mermaid 11.3.0+ node syntax</strong>. The diagram in <a href="#fig-test_3" class="quarto-xref">Figure&nbsp;3</a> is defined directly in the quarto document, while <a href="#fig-test_4" class="quarto-xref">Figure&nbsp;4</a> loads the diagram from an external .mmd file. This code gives an error with pdf output, but works with html output.</p>
 <div class="cell" data-eval="true" data-include="true" data-layout-align="default">
 <div class="cell-output-display">
 <div id="fig-test_3" class="quarto-float quarto-figure quarto-figure-center anchored">

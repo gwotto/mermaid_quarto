@@ -1,6 +1,17 @@
 # A quarto document with mermaid diagrams
 Georg W Otto
-06/11/2025
+07/11/2025
+
+## Summary
+
+This is a test where I try out the many and somehow confusing options
+how to integrate mermaid diagrams in documents rendered from a quarto
+file. The results depend a to a large degree on the output format:
+`html` is the most flexible format showing the output as intended, `pdf`
+does not (in my setting) render the mermaid node definition syntax
+introduced in `Mermaid 11.3.0`, and github flavoured `markdown` does not
+render mermaid code and does not support automated references to
+figures.
 
 ## Rendering mermaid diagrams from code
 
@@ -93,8 +104,8 @@ B -->|No| D[Do Something Else]
 The diagrams in **?@fig-test_3** and **?@fig-test_4** use the **Mermaid
 11.3.0+ node syntax**. The diagram in **?@fig-test_3** is defined
 directly in the quarto document, while **?@fig-test_4** loads the
-diagram from an external .mmd file. Neither of these seems to render in
-pdf output.
+diagram from an external .mmd file. This code gives an error with pdf
+output, but works with html output.
 
 ``` mermaid
 
