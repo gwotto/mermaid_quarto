@@ -1,0 +1,12 @@
+## aparently not necessary
+# mermaid:
+#   version: "11.9.0"  # ensures v11.9.0 for diagrams
+
+format:
+  html:
+    include-in-header: ../config/config-mermaid.html
+    default-image-extension: pdf
+  pdf:
+    # optional: use default LaTeX engine
+    documentclass: article
+  gfm: default

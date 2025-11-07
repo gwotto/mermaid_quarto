@@ -1,0 +1,25 @@
+# Quarto output
+
+# Quarto cache
+.quarto/
+mermaid-quarto-test_files/
+*.knit.md
+
+# R cache (if applicable)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+/.Rproj.user/
+
+
+# Temporary files
+*.log
+*.tmp
+*.aux
+
+# OS / Editor files
+.DS_Store
+
+/.quarto/
