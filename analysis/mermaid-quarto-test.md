@@ -15,8 +15,8 @@ intended, i.e. it renders mermaid code and includes pdf files. `pdf`
 does not (in my setting) render the mermaid node definition syntax
 introduced in `Mermaid 11.3.0`, but renders mermaid code with older
 syntax and includes `pdf` files. Github flavoured `markdown` does render
-mermaid code and includes `pdf` files, but does not support automated
-references to figures.
+mermaid code but does not include `pdf` files and does not support
+automated references to figures.
 
 ## Rendering mermaid diagrams from code
 
